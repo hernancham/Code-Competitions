@@ -39,8 +39,11 @@ int main()
         if (pos_act < n)
             cout << "Imposible para Pepito" << endl;
         else
+        {
             for (auto elem : saltos)
                 cout << elem << " ";
+            cout << endl;
+        }
 
         delete[] piedras;
         saltos.clear();
